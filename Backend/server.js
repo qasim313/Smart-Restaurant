@@ -1,5 +1,5 @@
+// server.js or app.js
 const express = require('express');
-const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const cors = require('cors');
 const http = require('http');
@@ -37,7 +37,6 @@ app.use('/api/reviews', reviewRoutes);
 app.use('/api/analytics', analyticsRoutes);
 app.use('/api/trending', trendingRoutes);
 
-
 // Error handling middleware
 app.use(require('./middleware/errorMiddleware'));
 
@@ -58,4 +57,3 @@ io.on('connection', (socket) => {
         console.log('Client disconnected');
     });
 });
-

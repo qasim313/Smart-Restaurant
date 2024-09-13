@@ -1,4 +1,4 @@
-const Menu = require('../models/Menu');
+const Menu = require('../models/MenuModel');
 
 // Get all menu items for a specific restaurant
 const getMenuItemsByRestaurant = async (req, res) => {

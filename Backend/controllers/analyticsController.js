@@ -1,6 +1,6 @@
-const Analytics = require('../models/Analytics');
-const Menu = require('../models/Menu');
-const Restaurant = require('../models/Restaurant');
+const Analytics = require('../models/AnalyticsModel');
+const Menu = require('../models/MenuModel');
+const Restaurant = require('../models/ResturantModel');
 
 // Get analytics data
 const getAnalyticsData = async (req, res) => {

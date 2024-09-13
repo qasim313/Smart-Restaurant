@@ -1,4 +1,4 @@
-const Review = require('../models/Review');
+const Review = require('../models/ReviewModel');
 
 // Get all reviews for a specific restaurant
 const getReviewsByRestaurant = async (req, res) => {

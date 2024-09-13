@@ -1,5 +1,5 @@
-const Menu = require('../models/Menu');
-const Restaurant = require('../models/Restaurant');
+const Menu = require('../models/MenuModel');
+const Restaurant = require('../models/ResturantModel');
 
 // Get trending menu items
 const getTrendingMenuItems = async (req, res) => {
